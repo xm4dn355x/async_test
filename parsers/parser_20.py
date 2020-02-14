@@ -6,7 +6,7 @@
 #
 
 from bs4 import BeautifulSoup
-from parsers_base import get_htmls, get_html
+from .parsers_base import get_htmls, get_html
 
 URL = 'https://www.google.com/search?newwindow=1&hl=ru&sxsrf=ACYBGNRxatTPuhJ1XnB7IiUkt3P8fXsomQ%3A1581685078461&ei=Vp' \
       'lGXr7kG8r2qwHXyJW4AQ&q=python+asyncio&oq=python+asyncio&gs_l=psy-ab.3..0l10.42661.45444..46068...0.3..0.144.82' \

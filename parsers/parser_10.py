@@ -6,7 +6,7 @@
 #
 
 from bs4 import BeautifulSoup
-from parsers_base import get_htmls, get_html
+from .parsers_base import get_htmls, get_html
 
 URL = 'https://www.google.com/search?newwindow=1&hl=ru&sxsrf=ACYBGNQOIfLLP2bVQCZU2YgvdIRwKrq-mg%3A1581684422340&ei=x' \
       'pZGXs6ZFOjKrgSno6DYCA&q=%D0%BC%D0%BE%D0%B5+%D1%83%D0%B2%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5&oq=vjt+edj&gs_l=p' \

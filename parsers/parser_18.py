@@ -6,7 +6,7 @@
 #
 
 from bs4 import BeautifulSoup
-from parsers_base import get_htmls, get_html
+from .parsers_base import get_htmls, get_html
 
 URL = 'https://www.google.com/search?newwindow=1&hl=ru&sxsrf=ACYBGNTY5NdRXtpTe_0Wkr7PiZnjyYscRA%3A1581684981779&ei=9Z' \
       'hGXpKWL6OqrgS2lqL4DA&q=python+threading&oq=python+thread&gs_l=psy-ab.3.0.0l10.34917.42772..43771...7.0..0.158.' \
