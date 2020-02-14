@@ -14,6 +14,12 @@ URL = 'https://www.google.com/search?newwindow=1&hl=ru&sxsrf=ACYBGNSXe1h4xMmCx1D
       'B8+%D0%BD%D0%B5&gs_l=psy-ab.3.2.0l10.11030.20883..23194...8.1..0.359.3177.0j22j1j1......0....1..gws-wiz.....1' \
       '0..0i71j35i362i39j35i39j0i131j0i67.AbzvA9VEf6k'
 
+def get_urls(url):
+    res = []
+    for i in range(10):
+        res.append(url)
+    return res
+
 
 def get_pages_data(htmls):
     """
@@ -50,4 +56,4 @@ def get_page_data(html):
 
 if __name__ == '__main__':
     # print(get_html(URL))
-    print(get_page_data(get_html(URL)))
+    print(get_pages_data(get_htmls(get_urls(URL))))
