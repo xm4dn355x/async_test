@@ -8,11 +8,12 @@
 from bs4 import BeautifulSoup
 from parsers_base import get_htmls, get_html
 
-URL = 'https://www.google.com/search?newwindow=1&hl=ru&sxsrf=ACYBGNSXe1h4xMmCx1DCsoez3C_-NS5Otg%3A1581667945103&ei=a' \
-      'VZGXqbjBe2xrgTyi4LwBg&q=%D1%87%D1%82%D0%BE+%D0%B1%D1%83%D0%B4%D0%B5%D1%82+%D0%B5%D1%81%D0%BB%D0%B8+%D0%BD%D0%' \
-      'B5+%D1%81%D0%BF%D0%B0%D1%82%D1%8C&oq=%D1%87%D1%82%D0%BE+%D0%B1%D1%83%D0%B4%D0%B5%D1%82+%D0%B5%D1%81%D0%BB%D0%' \
-      'B8+%D0%BD%D0%B5&gs_l=psy-ab.3.2.0l10.11030.20883..23194...8.1..0.359.3177.0j22j1j1......0....1..gws-wiz.....1' \
-      '0..0i71j35i362i39j35i39j0i131j0i67.AbzvA9VEf6k'
+URL = 'https://www.google.com/search?newwindow=1&hl=ru&sxsrf=ACYBGNQC6ONcyNnztqldwCG7JS9XlfA1HQ%3A1581680190285&ei=Po' \
+      'ZGXsvvEOLKrgSxrLLoAg&q=%D1%82%D1%8B+%D1%81%D0%BE%D0%B2%D1%81%D0%B5%D0%BC+%D0%B1%D1%83%D0%B1%D1%83%D0%BD+%D1%87' \
+      '%D1%82%D0%BE-%D0%BB%D0%B8&oq=%D1%82%D1%8B+%D1%81%D0%BE%D0%B2%D1%81%D0%B5%D0%BC+%D0%B1%D1%83%D0%B1%D1%83%D0%BD+' \
+      '%D1%87%D1%82%D0%BE-%D0%BB%D0%B8&gs_l=psy-ab.3..33i160.2734917.2744794..2744995...7.2..0.138.3416.0j29......0..' \
+      '..1..gws-wiz.......0i71j35i39j0i131j0j0i67j0i131i67j0i20i263j0i22i30.R0NTZGXVSgM&ved=0ahUKEwjLho_v-dDnAhVipYsK' \
+      'HTGWDC0Q4dUDCAs&uact=5'
 
 
 def parse_first():
