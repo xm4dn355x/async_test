@@ -1,5 +1,5 @@
 #
-#   Одиннадцатый простой парсер для тестирования скорости работы.
+#   Восьмой простой парсер для тестирования скорости работы.
 #
 #   Автор: Никитенко Михаил
 #   Лицензия: MIT License
@@ -8,13 +8,13 @@
 from bs4 import BeautifulSoup
 from parsers_base import get_htmls, get_html
 
-URL = 'https://www.google.com/search?newwindow=1&hl=ru&sxsrf=ACYBGNRDicu0wUZBrWgJvRNyC5BhbbT0Gw%3A1581684497703&ei=EZ' \
-      'dGXt2_KsXJrgSY8qhI&q=%D1%85%D0%B2%D0%B0%D1%82%D0%B8%D1%82+%D1%8D%D1%82%D0%BE+%D1%82%D0%B5%D1%80%D0%BF%D0%B5%D1' \
-      '%82%D1%8C&oq=%D1%85%D0%B2%D0%B0%D1%82%D0%B8%D1%82+&gs_l=psy-ab.3.0.0l10.89255.90015..91894...0.1..0.162.936.0j' \
-      '7......0....1..gws-wiz.......0i71j35i39j0i131.Rzuzu0iaqys'
+URL = 'https://www.google.com/search?newwindow=1&hl=ru&sxsrf=ACYBGNSAzLFS3ZjZVAs9STsGI3bRooJs5A%3A1581684239077&ei=D5' \
+      'ZGXridBKyFwPAPm-akkAE&q=%D0%BA%D1%83%D0%BF%D0%B8+%D1%81%D0%BB%D0%BE%D0%BD%D0%B0&oq=regb+ckjyf&gs_l=psy-ab.3.0.' \
+      '0i10i42j0i10l9.82031.105350..106486...16.1..0.221.3119.0j23j1......0....1..gws-wiz.....10..0i71j35i39j0j0i67j0' \
+      'i131j35i362i39j0i20i263j0i70i255j0i22i30j0i10i1j0i10i1i42j0i10i203i42j0i10i203j0i22i10i30.aEhbGhGY6oM'
 
 
-def parse_eleventh():
+def parse_eighth():
     return get_pages_data(get_htmls(get_urls(URL)))
 
 

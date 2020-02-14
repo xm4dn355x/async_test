@@ -1,5 +1,5 @@
 #
-#   Первый простой парсер для тестирования скорости работы.
+#   Второй простой парсер для тестирования скорости работы.
 #
 #   Автор: Никитенко Михаил
 #   Лицензия: MIT License
@@ -16,7 +16,7 @@ URL = 'https://www.google.com/search?newwindow=1&hl=ru&sxsrf=ACYBGNQC6ONcyNnztql
       'HTGWDC0Q4dUDCAs&uact=5'
 
 
-def parse_first():
+def parse_second():
     return get_pages_data(get_htmls(get_urls(URL)))
 
 

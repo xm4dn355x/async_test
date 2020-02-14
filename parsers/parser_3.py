@@ -1,5 +1,5 @@
 #
-#   Первый простой парсер для тестирования скорости работы.
+#   Третий простой парсер для тестирования скорости работы.
 #
 #   Автор: Никитенко Михаил
 #   Лицензия: MIT License
@@ -8,15 +8,13 @@
 from bs4 import BeautifulSoup
 from parsers_base import get_htmls, get_html
 
-URL = 'https://www.google.com/search?newwindow=1&hl=ru&sxsrf=ACYBGNQC6ONcyNnztqldwCG7JS9XlfA1HQ%3A1581680190285&ei=Po' \
-      'ZGXsvvEOLKrgSxrLLoAg&q=%D1%82%D1%8B+%D1%81%D0%BE%D0%B2%D1%81%D0%B5%D0%BC+%D0%B1%D1%83%D0%B1%D1%83%D0%BD+%D1%87' \
-      '%D1%82%D0%BE-%D0%BB%D0%B8&oq=%D1%82%D1%8B+%D1%81%D0%BE%D0%B2%D1%81%D0%B5%D0%BC+%D0%B1%D1%83%D0%B1%D1%83%D0%BD+' \
-      '%D1%87%D1%82%D0%BE-%D0%BB%D0%B8&gs_l=psy-ab.3..33i160.2734917.2744794..2744995...7.2..0.138.3416.0j29......0..' \
-      '..1..gws-wiz.......0i71j35i39j0i131j0j0i67j0i131i67j0i20i263j0i22i30.R0NTZGXVSgM&ved=0ahUKEwjLho_v-dDnAhVipYsK' \
-      'HTGWDC0Q4dUDCAs&uact=5'
+URL = 'https://www.google.com/search?newwindow=1&hl=ru&sxsrf=ACYBGNQPljS9puY_6GLuiSrEoV9lSIFibw%3A1581683404643&ei=z' \
+      'JJGXp7tJoiJrwSF3rqABw&q=%D0%BD%D0%B5+%D1%82%D0%B0%D1%80%D0%B0+%D0%BF%D0%B8%D1%81%D1%8F&oq=%D0%BD%D0%B5+%D1%82' \
+      '%D0%B0%D1%80%D0%B0+%D0%BF%D0%B8%D1%81%D1%8F&gs_l=psy-ab.3...3903.5406..5830...0.0..0.157.1410.0j12......0....' \
+      '1..gws-wiz.b05KqJDeTQA&ved=0ahUKEwieg-zrhdHnAhWIxIsKHQWvDnAQ4dUDCAs&uact=5'
 
 
-def parse_first():
+def parse_third():
     return get_pages_data(get_htmls(get_urls(URL)))
 
 
